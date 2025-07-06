@@ -26,7 +26,7 @@ Fonts:
 /* Set up the main font and background color for the whole page */
 body {
   background-color: #f4f8fb; /* Soft light blue for a fresh look */
-  font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif; /*Proxima Nova Alternative since it's not free*/
   margin: 0;
   padding: 0;
   color: #222;
@@ -78,7 +78,7 @@ section {
 
 /* Story Section Styles */
 .story {
-  background-color: #8BD1CB; /* Secondary Light Blue */
+  background-color: #77A8BB; /* Secondary Light Blue */
   color: #222;
   text-align: center;
   padding: 30px 20px;
@@ -86,7 +86,7 @@ section {
 
 /* Add accent color to section headings */
 h2 {
-  color: #2E9DF7; /* Primary blue */
+  color: #003366; /* Primary blue */
   margin-top: 0;
   font-weight: bold;
 }
@@ -136,6 +136,11 @@ section {
   margin-bottom: 20px;
 }
 
+/* Change Logio size */
+.site-logo {
+  height: 50px;
+}
+
 /* 
   Media Queries for Responsive Design
   Media queries help make your website look good on different screen sizes,
@@ -167,6 +172,12 @@ section {
     padding: 14px 8px;
   }
 
+  /* Change the impact content section background */
+  .impact-story {
+    background-color: #fff7e1; /* White */
+    display: block; /* Stack items vertically */
+    text-align: center;
+  }
   /* Make impact story image smaller and stack above the text */
   .impact-content {
     display: block; /* Stack items vertically */
